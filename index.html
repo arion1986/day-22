@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./src/output.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+
+    <div class="flex lg:max-w-[1200px] max-w-[480px] m-auto justify-between items-center p-4">
+        <div><a href=""><img src="./src/Лого.png" alt=""></a></div>
+        <div class="flex  gap-8 lg:flex hidden">
+            <a href="">
+                <p>Как покупать</p>
+            </a>
+            <a href="">
+                <p>Распродажи</p>
+            </a>
+
+            <a href="">
+                <p>Цены</p>
+            </a>
+
+            <a href="">
+                <p>Помощь</p>
+            </a>
+
+            <a href="">
+                <p>Бонусы</p>
+            </a>
+
+            <a href="">
+                <p>Блог</p>
+            </a>
+
+            <a href="">
+                <p>Магазины</p>
+            </a>
+
+
+        </div>
+
+
+        <div class="flex items-center gap-2 lg:flex hidden"><i class="fa-solid fa-circle-user text-[30px]"></i>
+            <p>Вход</p>
+        </div>
+
+
+        <p class="p-3 lg:flex hidden bg-[#00C97B] rounded-[50px] w-[150px] text-white">Связаться с нами</p>
+
+
+
+        <div class="relative inline-block lg:hidden flex">
+
+            <button onclick="toggleMenu()" class="flex items-center  bg-black text-white p-2 px-3 rounded-[50%]">
+                ☰
+
+            </button>
+
+            <div id="menu" class="hidden  mt-2 bg-white shadow rounded w-40 ">
+                <a href="#" class="block px-4 py-2 hover:bg-gray-100">Как покупать</a>
+                <a href="#" class="block px-4 py-2 hover:bg-gray-100">Распродажи</a>
+                <a href="#" class="block px-4 py-2 hover:bg-gray-100">Цены</a>
+                <a href="#" class="block px-4 py-2 hover:bg-gray-100">Помощь</a>
+                <a href="#" class="block px-4 py-2 hover:bg-gray-100">Бонусы</a>
+                <a href="#" class="block px-4 py-2 hover:bg-gray-100">Блог</a>
+                <a href="#" class="block px-4 py-2 hover:bg-gray-100">Магазины</a>
+
+
+
+
+            </div>
+
+        </div>
+
+        <script>
+            function toggleMenu() {
+                document.getElementById("menu").classList.toggle("hidden");
+            }
+        </script>
+
+    </div>
+
+    <div class="bg-[#40B8EA] rounded-[30px] py-8 text-white my-5">
+        <div class="flex max-w-[1200px] m-auto items-center lg:flex-row flex-col p-4  gap-10">
+            <div>
+                <p class="lg:text-[55px] text-[25px] font-bold">Доставка товаров <br> из Великобритании <br> в Россию
+                </p>
+                <p>Начните экономить до 80% на шопинге. Регистрируйтесь в OkeyPost, <br> чтобы покупать со скидками в UK
+                    одежду,
+                    обувь, гаджеты известных <br> брендов и безопасно отправлять вещи в Россию.
+                </p> <br>
+                <p class="p-3 lg:flex hidden bg-[#00C97B] rounded-[50px] w-[190px] text-white">Получить адрес в UK</p>
+
+            </div>
+            <div><img class="w-[500px]" src="./src/Иллюстрация.png" alt=""></div>
+        </div>
+    </div>
+
+    <p class="max-w-[1200px] m-auto text-[40px] mt-20 font-bold p-4 mb-10">Насколько выгодно <br> покупать?</p>
+
+    <div
+        class="flex lg:max-w-[1200px] lg:m-auto justify-between my-15 shadow-[1px_1px_3px_gray] p-5 mx-4 rounded-[20px] items-center">
+        <div><i class="fa-solid fa-left-long text-[40px] text-[#00C97B]"></i></div>
+        <div class="flex items-center gap-3">
+            <div><img src="./src/Иконка (4).png" alt=""></div>
+            <p>Одежда</p>
+        </div>
+
+        <div class="flex items-center gap-3 lg:flex hidden">
+            <div><img src="./src/Иконка (5).png" alt=""></div>
+            <p>Электроника</p>
+        </div>
+
+        <div class="flex items-center gap-3 lg:flex hidden">
+            <div><img src="./src/Иконка (6).png" alt=""></div>
+            <p>Аксессуары</p>
+        </div>
+
+        <div class="flex items-center gap-3 lg:flex hidden">
+            <div><img src="./src/Иконка (7).png" alt=""></div>
+            <p>Для детей</p>
+        </div>
+
+        <div class="flex items-center gap-3 lg:flex hidden">
+            <div><img src="./src/Иконка (8).png" alt=""></div>
+            <p>Для спорта</p>
+        </div>
+
+        <div class="flex items-center gap-3 lg:flex hidden">
+            <div><img src="./src/Иконка (9).png" alt=""></div>
+            <p>Косметика</p>
+        </div>
+
+        <div><i class="fa-solid fa-right-long  text-[40px] text-[#00C97B]"></i></div>
+    </div>
+
+
+
+    <div class="flex max-w-[1200px] m-auto justify-between my-15 items-center lg:flex-row flex-col p-4">
+        <div>
+            <p class="text-[25px]">Columbia Barlow Pass 550 <br> Turbodown Jacket</p><br><br>
+            <div><img src="./src/Цена в России.png" alt=""></div>
+            <div class="flex  items-center lg:flex hidden">
+                <div class="mt-25"><img src="./src/Футболка.png" alt=""></div>
+                <div><i class="fa-solid fa-left-long text-[40px] mt-25 text-[#00C97B]"></i></div>
+            </div>
+        </div>
+
+        <div class="text-center font-bold ">
+            <div><img src="./src/Куртка.png" alt=""></div>
+            <p>Срок доставки примерно 10 дней</p>
+            <p class="text-[30x]">Вы экономите до <span class="text-[#00D981]">$119.56</span></p>
+        </div><br>
+
+        <div>
+            <p class="text-[25px]">Доставка одежды из <br> Великобритании от <span class="text-[#00D981]">$7.79</span>
+            </p><br><br>
+            <div class=""><img src="./src/Цена в UK.png" alt=""></div>
+            <div class="flex items-center justify-end lg:flex hidden">
+                <div><i class="fa-solid fa-right-long  text-[40px] mt-25 text-[#00C97B]"></i></div>
+
+                <div class="mt-25 "><img src="./src/Джинсы.png" alt=""></div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div
+        class="flex max-w-[1200px] lg:m-auto justify-between lg:flex-row flex-col mx-4  shadow-[1px_1px_3px_grey] p-4 rounded-[10px] lg:my-30">
+        <div class="flex lg:gap-5">
+            <div class="flex items-center gap-4 lg:border-r-1 lg:pr-15">
+                <div><img src="./src/Иконка (10).png" alt=""></div>
+                <p>Экономия до 70%</p>
+            </div><br>
+
+            <div class="flex items-center gap-4 lg:border-r-1 lg:pr-20">
+                <div><img src="./src/Иконка (11).png" alt=""></div>
+                <p>Только подлинная продукция</p>
+            </div><br>
+        </div>
+        <div class="flex justify-between lg:gap-5 lg:ml-10">
+            <div class="flex items-center gap-4 lg:border-r-1 lg:pr-20">
+                <div><img src="./src/Иконка (12).png" alt=""></div>
+                <p>Оперативная доставка</p>
+            </div><br>
+
+            <div class="flex items-center gap-4 ">
+                <div><img src="./src/Иконка (13).png" alt=""></div>
+                <p>Только подлинная продукция</p>
+            </div><br>
+        </div>
+    </div>
+
+
+    <div class="bg-[#5B52A3] rounded-[30px] py-8 text-white my-5">
+        <div class="flex max-w-[1200px] m-auto items-center lg:flex-row flex-col p-4 lg:flex-row-reverse  gap-10">
+            <div>
+                <p class="text-[25px]">Поручите нашим мастерам шопинга оформить заказы в английских магазинах и
+                    освободите время для более важных дел.</p> <br>
+                <p>Начните экономить до 80% на шопинге. Регистрируйтесь в OkeyPost, <br> чтобы покупать со скидками в UK
+                    одежду,
+                    обувь, гаджеты известных <br> брендов и безопасно отправлять вещи в Россию.
+                </p> <br>
+                <p class="p-3  bg-[#00C97B] rounded-[50px] w-[190px] px-11 text-white">Попробовать</p>
+
+            </div>
+            <div><img class="w-[500px]" src="./src/Иллюстрация (1).png" alt=""></div>
+        </div>
+    </div>
+
+    <div class="p-5 max-w-[1200px] m-auto">
+        <p class="text-[30px] font-bold ">OkeyPost удобная и быстрая доставка <br> посылок из Великобритании </p>
+        <p>Рассчитайте стоимость доставки из Англии к вам домой. Мы получим ваши <br> посылки на складе, при необходимости
+            объединим несколько доставок в одну <br> и отправим их к вам надежно упакованными.</p>
+    </div>
+<div class=" shadow-[1px_1px_3px_gray] max-w-[1200px] m-auto rounded-[10px] pb-4 my-20 ">
+<div class="flex max-w-[1200px] m-auto p-4 justify-between lg:flex-row flex-col">
+    <div class="border-b-1 p-2 w-[200px]">
+        <p class="font-bold">Страна:</p><br>
+        <div class="flex gap-2"><img src="./src/GlobeHemisphereWest.png" alt=""><p>Россия</p></div>
+    </div>
+
+     <div class="border-b-1 p-2 w-[200px]">
+        <p class="font-bold">Город:</p><br>
+        <div class="flex gap-2"><img src="./src/Buildings.png" alt=""><p>Москва</p></div>
+    </div>
+
+     <div class="border-b-1 p-2 w-[200px]">
+        <p class="font-bold">Индекс:</p><br>
+        <div class="flex gap-2"><img src="./src/Notebook.png" alt=""><p>Введите индекс</p></div>
+    </div>
+
+     <div class="border-b-1 p-2 w-[200px]">
+        <p class="font-bold">Вес посылки:</p><br>
+        <div class="flex gap-2"><img src="./src/Barbell.png" alt=""><p>0,5</p></div>
+    </div>
+
+     <div class="border-b-1 p-2 w-[200px]">
+        <p class="font-bold">Страна:</p><br>
+        <div class="flex gap-4"><img src="./src/GlobeHemisphereWest.png" alt=""><p>Россия</p></div>
+    </div>
+</div>
+                <p class="p-3  m-4 bg-[#00C97B] rounded-[50px] w-[190px] px-11 text-white">Попробовать</p>
+</div>
+<p class="text-[35px] max-w-[1200px] lg:m-auto p-4 my-10 font-bold">Варианты доставки:</p><br><br>
+
+<div class="flex lg:max-w-[1200px] lg:m-auto justify-between my-4 shadow-[1px_1px_3px_grey] p-4 rounded-[10px] gap-2 mx-4">
+<div class="flex items-center gap-4"><img src="./src/Иконка (14).png" alt=""><p class="lg:flex hidden">Почта России</p></div>
+<div class="flex lg:gap-15">
+<div class="border-l-1 pl-4"><p>Сроки:</p><p class="font-bold">10-14 дней</p></div>
+<div class="border-l-1 pl-4"><p>Стоимость доставки:</p><p class="font-bold">от £27.00</p></div>
+<div class="border-l-1 pl-4"><p>Итого:</p><p class="font-bold">£41.99</p></div></div>
+</div><br>
+
+<div class="flex lg:max-w-[1200px] lg:m-auto justify-between shadow-[1px_1px_3px_grey] p-4 rounded-[10px] gap-2 mx-4">
+<div class="flex items-center gap-4"><img src="./src/Иконка (15).png" alt=""><p class="lg:flex hidden">EMS ПОЧТА РОССИЯ</p></div>
+<div class="flex lg:gap-15">
+<div class="border-l-1 pl-4"><p>Сроки:</p><p class="font-bold">10-14 дней</p></div>
+<div class="border-l-1 pl-4"><p>Стоимость доставки:</p><p class="font-bold">от £27.00</p></div>
+<div class="border-l-1 pl-4"><p>Итого:</p><p class="font-bold">£41.99</p></div></div>
+</div><br>
+
+<div class="flex lg:max-w-[1200px] lg:m-auto justify-between shadow-[1px_1px_3px_grey] p-4 rounded-[10px] gap-2 mx-4">
+<div class="flex items-center gap-4"><img src="./src/Иконка (16).png" alt=""><p class="lg:flex hidden">ПОЧТА РОССИИ МЕЛКИЕ ПАКЕТЫ</p></div>
+<div class="flex lg:gap-15">
+<div class="border-l-1 pl-4"><p>Сроки:</p><p class="font-bold">10-14 дней</p></div>
+<div class="border-l-1 pl-4"><p>Стоимость доставки:</p><p class="font-bold">от £27.00</p></div>
+<div class="border-l-1 pl-4"><p>Итого:</p><p class="font-bold">£41.99</p></div></div>
+</div><br><br>
+
+
+
+<p class="text-[35px] lg:max-w-[1200px] m-auto p-4 my-20 font-bold">4 простых шага для ваших <br> покупок в Великобритании </p>
+
+<div class="flex lg:max-w-[1200px] m-auto justify-between mb-10 lg:flex-row flex-col p-4">
+<div><img src="./src/Иллюстрация (2).png" alt=""><p class="text-[20px] font-bold">вы ВЫБИРАЕТЕ <br> ТОВАР</p><br>
+<p>в английском магазине, оплачиваете <br> и указываете адрес склада OkeyPost</p></div>
+
+<div><img src="./src/Иллюстрация (3).png" alt=""><p class="text-[20px] font-bold">ПОКУПКИ ПРИХОДЯТ <br> НА СКЛАД</p><br>
+<p>и появляются в вашем личном кабинете <br> на нашем сайте</p></div>
+
+
+<div><img src="./src/Иллюстрация (4).png" alt=""><p class="text-[20px] font-bold">ОТПРАВЛЯЕМ ИХ <br> К ВАМ ДОМОЙ</p><br>
+<p>в надежной упаковке, по выгодной <br> цене и очень быстро</p></div>
+
+
+<div><img src="./src/Иллюстрация (5).png" alt=""><p class="text-[20px] font-bold">ЗАБИРАЕТЕ<br>
+свою ПОСЫЛКУ</p><br>
+<p>в английском магазине, оплачиваете <br> и указываете адрес склада OkeyPost</p></div>
+</div>
+
+<div class="lg:max-w-[1200px] m-auto p-4 my-10">
+<p >Не хотите разбираться самостоятельно, наши мастера шопинга с радостью<br> купят все товары за вас.</p><br>
+
+                <p class="p-3  bg-[#00C97B] rounded-[50px] w-[220px] px-11 text-white">Быстрая покупка</p>
+</div>
+
+
+<div class="bg-[#5B52A3] rounded-[30px] py-4 text-white my-5">
+        <div class="flex max-w-[1200px] m-auto items-center lg:flex-row flex-col p-4 lg:flex-row-reverse  gap-10">
+            <div>
+                <p class="text-[35px]">Виртуальный тур по нашему складу в реальном времени</p> <br>
+                <p>Вы можете всегда посмотреть на нашу слаженую работу на складе</p> <br>
+                <p class="p-3  bg-[#00C97B] rounded-[50px] w-[190px] px-11 text-white">Попробовать</p>
+
+            </div>
+            <div><img class="w-[500px]" src="./src/Иллюстрация (6).png" alt=""></div>
+        </div>
+    </div>
+
+    <div class="p-5 max-w-[1200px] m-auto">
+        <p class="text-[30px] font-bold ">120 000 довольных клиентов в России <br> уже сделали свой выбор</p>
+        <p>За последний год десятки тысяч наших клиентов заказали <br> товары из Англии и оставили 19 633 отзыва</p>
+    </div>
+
+<div class="flex lg:max-w-[1200px] m-auto justify-between lg:flex-row flex-col p-4">
+    <div class="lg:w-[370px]  shadow-[1px_1px_3px_grey]  rounded-[10px] p-6"><img src="./src/Иконка (17).png" alt=""><br><br><p class="font-bold">Больше не значит дороже</p><p>С ростом веса посылки цена за каждые 0.5 кг уменьшается в прогрессии.</p></div><br>
+    <div class="lg:w-[370px] shadow-[1px_1px_3px_grey]  rounded-[10px] p-6"><img src="./src/Иконка (18).png" alt=""><br><br><p class="font-bold">Быстрая обработка посылок</p><p>С ростом веса посылки цена за каждые 0.5 кг уменьшается в прогрессии.</p></div><br>
+    <div class="lg:w-[370px]  shadow-[1px_1px_3px_grey]  rounded-[10px] p-6"><img src="./src/Иконка (19).png" alt=""><br><br><p class="font-bold">SMS-уведомления</p><p>С ростом веса посылки цена за каждые 0.5 кг уменьшается в прогрессии.</p></div><br>
+</div>
+
+<p class="text-[35px] lg:max-w-[1200px] m-auto p-4 my-10 font-bold">Отзывы и цитаты блогеров:</p><br><br>
+
+<div class="lg:max-w-[1200px] m-auto p-4  justify-between my-15">
+<div class="flex gap-5 lg:flex-row flex-col">
+<div class="flex gap-10 shadow-[1px_1px_3px_grey] lg:w-[600px] w-[200px] rounded-[10px] p-4">
+    <img src="./src/фон.png" alt="">
+    <div>
+        <div>
+        <p>NIKOLAY S</p>
+        <img src="./src/рейтинг.png" alt=""><br>
+        <p>Ваша доставка самая быстрая и дешёвая!!!</p>
+        <div class="mt-15 flex gap-5">
+            <p class="font-bold">Дата: <br>
+Город:</p>
+<p>16 Ноября 2021 <br>
+Санкт-Петербург</p>
+</div>
+        </div>
+        
+    </div>
+</div>
+
+<div class="flex gap-10 shadow-[1px_1px_3px_grey]  lg:w-[600px] w-[200px]  rounded-[10px] p-4">
+    <img src="./src/фон (1).png" alt="">
+    <div>
+        <div>
+        <p>NIKOLAY S</p>
+        <img src="./src/рейтинг.png" alt=""><br>
+        <p>Ваша доставка самая быстрая и дешёвая!!!</p>
+        <div class="mt-15 flex gap-5">
+            <p class="font-bold">Дата: <br>
+Город:</p>
+<p>16 Ноября 2021 <br>
+Санкт-Петербург</p>
+</div>
+        </div>
+        
+    </div>
+</div>
+</div>
+
+<div class="flex gap-5 mt-5 lg:flex-row flex-col">
+<div class="flex gap-10 shadow-[1px_1px_3px_grey] lg:w-[600px] w-[200px] rounded-[10px] p-4">
+    <img src="./src/фон (2).png" alt="">
+    <div>
+        <div>
+        <p>NIKOLAY S</p>
+        <img src="./src/рейтинг.png" alt=""><br>
+        <p>Ваша доставка самая быстрая и дешёвая!!!</p>
+        <div class="mt-15 flex gap-5">
+            <p class="font-bold">Дата: <br>
+Город:</p>
+<p>16 Ноября 2021 <br>
+Санкт-Петербург</p>
+</div>
+        </div>
+        
+    </div>
+</div>
+
+<div class="flex gap-10 shadow-[1px_1px_3px_grey] lg:w-[600px] rounded-[10px] p-4 w-[200px]">
+    <img  src="./src/фон (3).png" alt="">
+    <div>
+        <div>
+        <p>NIKOLAY S</p>
+        <img src="./src/рейтинг.png" alt=""><br>
+        <p>Ваша доставка самая быстрая и дешёвая!!!</p>
+        <div class="mt-15 flex gap-5">
+            <p class="font-bold">Дата: <br>
+Город:</p>
+<p>16 Ноября 2021 <br>
+Санкт-Петербург</p>
+</div>
+        </div>
+        
+    </div>
+</div>
+</div>
+</div>
+
+
+
+<div class="p-5 max-w-[1200px] m-auto">
+        <p class="text-[30px] font-bold ">Ваш личный адрес в Великобритании  для покупок</p>
+        <p>С нами вы получаете целых два адреса в UK! У нас есть два склада для приема посылок – в Лондоне и Манчестере. Указывайте в магазине тот из них, отправка на который обойдется дешевле (или покупка будет без налогов). Чаще всего в Лондоне наши клиенты заказывают одежду и обувь, а в Манчестер идут гаджеты и всё остальное. С OkeyPost вы всегда получаете максимальную выгоду!
+
+При доставке из UK в Россию все ваши товары обязательно страхуются. Прием посылок на наш склад, их обработка, удаление лишних коробок, хранение сроком до 70 дней – у нас полностью бесплатно. Мы также бесплатно проводим объединение посылок из разных магазинов в одну. Это необходимо для снижения стоимости доставки посылок из UK в Россию.
+
+У нас самая выгодная доставка! От $11.99 за посылку! А если у вас есть какие-то особенные требования, вроде проверки техники или дополнительной пленки для самых хрупких товаров, – операторы нашего склада с радостью выполнят их по спецзапросу.
+
+Okeypost.com – это надежно, быстро и выгодно. А в наших соцсетях вы всегда найдете информацию о лучших скидках fyukbqcrb[ магазинов. Не обязательно заходить в Черную пятницу или Prime Day, крутые акции проходят каждый день!</p>
+        
+    </div>
+<div class="bg-[#5B52A3] p-4 rounded-[10px] my-15">
+    <div class=" text-white flex items-center max-w-[1200px] m-auto p-4 lg:flex-row flex-col   justify-between">
+        <p class="text-[25px]">Подпишитеть и будьте в курсе <br> всех скидок и акций магазинов <br> Великобритании!</p><br>
+        <img src="./src/Поле ввода.png" alt=""> <br>
+
+         <p class="p-3  bg-[#00C97B] rounded-[50px] w-[190px] px-11 text-white">Подписаться</p> <br>
+
+
+        
+
+    </div>
+</div>
+
+
+<div class="lg:max-w-[1200px] m-auto flex lg:flex-row flex-col p-4 justify-between">
+ <div >
+            <img src="./src/Лого.png" alt=""><br>
+            <img src="./src/Соцсети.png" alt="">
+         </div> <br>
+
+         <div>
+            <p  class="font-bold">О компании</p><br>
+            <p>Услуги<br>
+Цены<br>
+Отзывы<br>
+Контакты<br>
+Вакансии<br>
+Соглашение о персональных данных<br>
+Условия использования</p>
+         </div><br>
+
+         <div><p class="font-bold">Полезное</p><br>
+        <p>Как работает наш сервис <br>
+Как покупать с оператором<br>
+Ответы на частые вопросы<br>
+Популярные магазины<br>
+Черный список магазинов<br>
+Актуальные распродажи</p></div><br>
+
+<div>
+    <p class="font-bold">Спецпроекты</p><br>
+    <p>50% на первую доставку <br>
+Скидки для постоянных клиентов <br>
+Реферальная программа <br>
+Кэшбек Mr. Rebates и Rakuten <br>
+Stop Fraud</p>
+</div> <br>
+</div>
+<br>
+<hr>
+
+<p class="text-center p-4 ">© 2021 Okeypost . Все права защищены.</p>
+
+
+
+
+
+</body>
+
+</html>
